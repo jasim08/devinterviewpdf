@@ -1,4 +1,105 @@
 {
-  "main_course" : ["javascript", "node.js", "mongodb", "mysql", "react", "angular","microservices", "dsa"]
-  "sub_topic" : [{"javascript": [{title: "Javascript Basics 1-15 Q"},{title: "Javascript Basics 16-30 Q"} ]}]
+  "main_course": [
+    "javascript",
+    "node.js",
+    "mongodb",
+    "mysql",
+    "react",
+    "angular",
+    "microservices",
+    "dsa"
+  ],
+  "sub_topic": [
+    {
+      "javascript": [
+        { "title": "Javascript Basics 1-15 Q" },
+        { "title": "Javascript Basics 16-30 Q" },
+        { "title": "ES6 and Modern JS" },
+        { "title": "DOM & Events" },
+        { "title": "Asynchronous JS (Promises, async/await)" },
+        { "title": "Closures, Hoisting, Scope" },
+        { "title": "This, Bind, Call, Apply" },
+        { "title": "JavaScript Coding Patterns" }
+      ]
+    },
+    {
+      "node.js": [
+        { "title": "Node.js Basics" },
+        { "title": "Event Loop and Async Patterns" },
+        { "title": "Express.js Fundamentals" },
+        { "title": "Middleware and Routing" },
+        { "title": "Error Handling in Node.js" },
+        { "title": "Node.js with MongoDB/MySQL" },
+        { "title": "Authentication (JWT, OAuth)" },
+        { "title": "REST APIs and Best Practices" }
+      ]
+    },
+    {
+      "mongodb": [
+        { "title": "MongoDB Basics" },
+        { "title": "CRUD Operations" },
+        { "title": "Aggregation Framework" },
+        { "title": "Indexing and Performance" },
+        { "title": "Schema Design Best Practices" },
+        { "title": "Mongoose ODM" },
+        { "title": "Transactions in MongoDB" }
+      ]
+    },
+    {
+      "mysql": [
+        { "title": "MySQL Basics and Datatypes" },
+        { "title": "Joins (Inner, Left, Right, Full)" },
+        { "title": "Indexes and Performance Tuning" },
+        { "title": "Stored Procedures & Triggers" },
+        { "title": "Normalization & Schema Design" },
+        { "title": "Transactions & Isolation Levels" },
+        { "title": "Common SQL Interview Questions" }
+      ]
+    },
+    {
+      "react": [
+        { "title": "React Basics (JSX, Components)" },
+        { "title": "State and Props" },
+        { "title": "React Hooks (useState, useEffect, etc.)" },
+        { "title": "Context API and Redux Basics" },
+        { "title": "Component Lifecycle and Optimization" },
+        { "title": "Routing with React Router" },
+        { "title": "React Interview Coding Challenges" }
+      ]
+    },
+    {
+      "angular": [
+        { "title": "Angular Basics (Components, Modules)" },
+        { "title": "Data Binding and Directives" },
+        { "title": "Services and Dependency Injection" },
+        { "title": "Routing and Lazy Loading" },
+        { "title": "Reactive Forms & Template Driven Forms" },
+        { "title": "RxJS Observables" },
+        { "title": "Angular Interview Questions" }
+      ]
+    },
+    {
+      "microservices": [
+        { "title": "Microservices Basics and Principles" },
+        { "title": "API Gateway and Service Discovery" },
+        { "title": "Communication (REST, gRPC, Messaging)" },
+        { "title": "Authentication and Authorization" },
+        { "title": "Error Handling & Circuit Breakers" },
+        { "title": "Monitoring and Logging" },
+        { "title": "Microservices Interview Case Studies" }
+      ]
+    },
+    {
+      "dsa": [
+        { "title": "Array & String Problems" },
+        { "title": "Stack and Queue" },
+        { "title": "Linked List" },
+        { "title": "Tree and Binary Search Tree" },
+        { "title": "Graph Algorithms (BFS, DFS, Dijkstra)" },
+        { "title": "Dynamic Programming" },
+        { "title": "Sorting and Searching Algorithms" },
+        { "title": "Top 50 DSA Interview Questions" }
+      ]
+    }
+  ]
 }
